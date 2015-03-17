@@ -1,0 +1,106 @@
+/* body background colour -RO */
+body, #page {
+	background-color: #fafafa;
+}
+#page{
+	margin-top:20px;
+}
+/* style for an added class used in the editor */
+.highlightbox {
+	background: #f2f2f2;
+	border: 1px solid #be0f34;
+	padding: 0 10px;
+}
+/* forces top navbar to black per standard USW theming -RO */
+.navbar, .navbar-inner {
+	background-color: #000;
+	height:45px;
+}
+.navbar {
+	position:absolute;
+}
+/* add logo to brand on top navbar - RO */
+@media screen and (min-width: 769px){
+	.navbar .navbar-inner .brand {
+		background-image:url([[pix:theme|USW-logo]]);
+		z-index: 100;
+		width: 140px;
+		height: 144px;
+	}
+}
+@media screen and (max-width: 768px){
+	.navbar .navbar-inner .brand {
+		background-image:url([[pix:theme|USW-logo2]]);
+		z-index: 100;
+		width: 140px;
+		height: 45px;
+	}
+}
+@media screen and (max-width: 615px){
+	.navbar .navbar-inner .brand {
+		background-image:none;
+		z-index: 100;
+		width: 0px;
+		height: 0px;
+
+	}
+}
+/* hide 'greying' of header strip -RO */
+#page-header {
+	background:none;
+	border-bottom:none;
+	height:120px;
+	margin-top:0;
+}
+
+/* Reduce font size for Course links in Course Overview block on MY page -RO */
+.block_course_overview .content h2.title {
+	font-weight:600;
+	font-size:20px;
+}
+/* styles for added classes used for content in the editor */
+.highlightbox {
+	background: #f2f2f2;
+	border: 1px solid #be0f34;
+	padding: 0 10px;
+}
+/* displays building illustrations in footer  – BR - edited RO */
+#page-footer {
+	border-top: 10px solid #acacae;
+	background: url([[pix:theme|uswBuildingsTransparent75]]) repeat-x scroll 0 0 #CCC !important;
+	background-position: bottom !important;
+	height:110px;
+}
+#page-header h1#title {
+    color: #be0f34;
+    font-size: 2em;
+    font-weight:400;
+    position: relative;
+    top: 40px;
+    left: 70px;
+    white-space: nowrap;
+}
+/* ie hack for top header positioning -RO */
+body.ie #page-header h1#title {
+	top:60px;
+}
+@media screen and (max-width: 768px){
+	#page-header {
+		display:none;
+	}
+}
+.alert {
+	margin-top:22px;
+	margin-bottom:8px;
+}
+/* typekit USW corporate fonts */
+h1 {
+  color: #be0f34;
+  font-family: "myriad-pro-condensed", sans-serif !important;
+}
+h2,h3,h4,h5,h6 {
+  font-family: "myriad-pro", sans-serif !important;
+}
+body, p, div, ul, ol, li{
+	font-family: "myriad-pro", sans-serif !important;
+}

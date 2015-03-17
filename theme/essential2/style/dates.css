@@ -1,0 +1,14 @@
+header h1#title {text-shadow:1px 1px #fff;}
+
+/* Fireworks */
+.Nov05 header {
+	background:url([[pix:theme|dates/fireworks1]]) repeat-x left top;
+	background-size:100%;
+	}
+
+/* Remembrance */
+.Nov07 header, .Nov09 header, .Nov10 header, .Nov11 header {
+	background:url([[pix:theme|dates/poppy1]]) repeat-x left top;
+	background-size:100%;
+	}
+

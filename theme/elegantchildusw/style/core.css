@@ -1,0 +1,144 @@
+.mycourseboxes img {
+	width: 100%;
+	height: 100%;
+}
+#block-region-side-middle .block .content {
+	height: 250px;
+	overflow-y: hidden;
+}
+#sections {
+	text-align: left;
+}
+.highlightbox {
+	background: #f2f2f2;
+	border: 1px solid #be0f34;
+	padding: 0 10px;
+}
+h2 {
+	font-size: 24px;
+	margin-top: 12px;
+}
+.marketing-block h3 {
+	display: none;
+}
+
+.navbar-default {
+	background-color: #000 !important;
+}
+
+/* forces logo to display at correct size – BR */
+#logo {
+	z-index: 100;
+	width: 140px;
+	height: 144px;
+}
+.navbar-brand {
+	padding-top: 0px;
+}
+
+/* moves navbar to top of stack so that USW logo can overlap lower part of the header – BR  */
+.navbar {
+	position: relative;
+	z-index: 100;
+}
+
+/* fixes line-height of site name on front page  – BR */
+#fontpagecontent h2 {
+	line-height: 1em;
+	color: #BE0F34;
+	margin-left: 175px;
+}
+
+#page-navbar nav.breadcrumb-nav{
+	margin-left: 175px;
+}
+
+/* removes the background image from the lower part of the header – BR  */
+#page-site-index #moodleheader, #moodleheader {
+	background: none repeat scroll 0 0 #F5F5F5 !important;
+	box-shadow: none !important;
+}
+
+/* prevents drop-down menu on small viewports overlapping USW logo – BR  */
+#moodle-navbar{
+	margin-left: 175px;
+}
+
+
+/* changes colour of nav bar & menu items to USW red on small viewports  – BR */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #BE0F34 !important;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	background-color: #BE0F34 !important;
+}
+.navbar-default .navbar-toggle {
+	border-color: #BE0F34 !important;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #BE0F34 !important;
+}
+
+/* displays building illustrations in footer  – BR */
+#page-footer {
+	border-top: 10px solid rgba(255, 255, 255, 0.5);
+	background: url("//oer.southwales.ac.uk/pluginfile.php/1/theme_elegance/headerbg/-1/uswBuildingsTransparent75.png") repeat-x scroll 0 0 #CCC !important;
+	background-position: bottom !important;
+}
+
+/* typekit USW corporate fonts */
+h1 {
+  color: #be0f34;
+  font-family: "myriad-pro-condensed", sans-serif !important;
+  font-size: 3em;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "myriad-pro", sans-serif !important;
+}
+
+body, p, div, ul, ol, li{
+	font-family: "myriad-pro", sans-serif !important;
+}
+
+@media screen and (max-width: 480px){
+	#fontpagecontent h2{
+		font-size: 1.1em;
+		line-height: 1.1em;
+	}
+}
+@media screen and (max-width: 600px){
+	#fontpagecontent h2{
+		font-size: 1.3em;
+		line-height: 1.3em;
+	}
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* @group Alerts */
+
+.useralerts {min-height:55px;}
+.alert {margin-bottom:10px;}
+
+.useralerts [class^="fa-stack"] {
+	float: left;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.useralerts .title {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.alert > span { display:inline;}
+
+/* @end */

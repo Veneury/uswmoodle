@@ -1,0 +1,1450 @@
+/* W3C CSS Validated - 20 January 2012
+-------------------------------------*/
+html{
+    background: url([[pix:theme|background]]) repeat-x scroll left top #CCDCE7;
+    color:[[setting:userfontcolour]];
+}
+/* Editor text styles - if changed, these should be recreated in editor.css so they are reflected in the TinyMCE editor window */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+    margin: 0;
+    text-shadow:0 1px 0 #FFF;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+.block_course_overview .content h2.title {
+	font-size: 120%;
+	margin-bottom: 0.2em;
+}
+.block_course_overview .coursebox {
+	padding: 5px;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1;
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    font-size: 1.2em;
+    line-height: 1.25;
+    margin-bottom: 0.75em;
+}
+
+h5 {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+ul, ol {
+    margin: 0 1.5em 1.5em 1.5em;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+dl {
+    margin: 0 0 1.5em 0;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    margin-left: 1.5em;
+}
+
+abbr, acronym {
+    border-bottom: 1px dotted #000;
+}
+
+address {
+    margin-top: 1.5em;
+    font-style: italic;
+}
+
+del {
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+blockquote {
+    margin: 1.5em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em, dfn {
+    font-style: italic;
+}
+
+dfn {
+    font-weight: bold;
+}
+
+pre, code {
+    white-space: pre;
+}
+
+pre, code, tt {
+    font: 1.2em monospace;
+    line-height: 1;
+    margin: 1.5em 0;
+}
+.wrapper {
+    margin: 0 25px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    text-shadow:0 1px 0 #FFF;
+}
+body input{
+    font-family:Arial,Helvetica,sans-serif;
+}
+select,input,button,textarea{
+    font-size:0.9em;
+}
+a:link,a:visited {
+    color: #C22323;
+}
+a:hover,a:active {
+    color: #251c17;
+}
+a img {
+    border: none;
+}
+a:active {
+    outline: none;
+}
+
+/* Header
+------------------------- */
+#page-header-wrapper {
+    background: transparent url([[setting:logourl]]) no-repeat left top;
+    margin: 0;
+    height:80px;
+}
+#page-header{
+    float:none;
+    background: white url([[pix:theme|headerwrap]]) no-repeat left top;
+    margin-right:0;
+    position:relative;
+    min-height:85px;
+}
+#page-header .sitelogo {
+    float:left;
+    margin:0.75em 0;
+}
+#page-header .headermain{
+    color:#000;
+    font-size:2.0em;
+    font-weight:700;
+    letter-spacing:-1px;
+    text-decoration:none;
+    text-transform:none;
+    text-shadow:1px 1px 0 #FFF;
+    margin:.75em 0 0 90px;
+    float:left;
+	width:auto;
+}
+#page-header .headermenu a:hover{
+    color:#C30;
+}
+
+/* Header Profile
+-------------------------- */
+#header-profileoptions ul{
+    margin-right:4px;
+}
+#header-profileoptions ul li{
+    display:inline;
+    padding-left:5px;
+    font-size:1.3em;
+}
+.headermenu{
+    font-size:1em;
+}
+.loginform_row{
+    padding:0 0 5px;
+}
+#profileoptions.profileoptions a li img {
+    vertical-align:middle;
+    padding-right:10px;
+}
+
+/* Menu Navigation
+-------------------------- */
+#page-navigation{
+    font-size:1.1em;
+    background-image:none;
+    height:36px;
+    margin:0;
+    padding:0 40px;
+}
+#page-navigation li{
+    list-style:none;
+    float:left;
+}
+#page-navigation a{
+    display:block;
+    padding:5px 10px;
+}
+.navbutton { 
+    height:18px;
+	text-align:right; 
+	float: right; 
+	margin:0px 2px 5px 0;
+}
+.navbutton .singlebutton input {
+    background:#fff;     
+	border-width:1px;
+	border-style:outset;
+	border-color:#787878;
+	font-size: 85%;
+	cursor: pointer;
+}
+
+/* Dock
+---------------------------*/
+#dock {
+    background-color: #f6f6ff;
+    border-right-color: #000033;
+}
+#dock .dockeditem_container{
+    margin-top:10px;
+}
+#dock .dockeditem {
+    background-color: #f6f6ff;
+}
+#dock .firstdockitem {
+    margin-top: 8px;
+}
+#dock .dockeditem .dockedtitle {
+    border-color: #e2e2e2 #ffffff #e4e4e4;
+}
+#dock .dockeditem .dockedtitle.activeitem {
+    background: none repeat scroll 0 0 #ffffff;
+    border-top-color: #000033;
+}
+#dock .firstdockitem .dockedtitle{
+    border-top-color:#ddd;
+}
+#dock .dockeditem .dockedtitle h2{
+    margin:12px 0 12px 7px;
+}
+#dock .dockedtitle h2 {
+    color:#000033;
+}
+#dockeditempanel .dockeditempanel_content{
+    border-top: #000033 solid 1px;
+    border-bottom: #000033 solid 1px;
+    border-left: #000033 solid 1px;
+    border-right: #000033 solid 1px;
+    background-color: [[setting:userbackground]];
+              box-shadow:2px 2px 3px #b81738;
+         -moz-box-shadow:2px 2px 3px #b81738;
+      -webkit-box-shadow:2px 2px 3px #b81738;
+    border-radius: 0 0 25px 0;
+}
+#dockeditempanel .dockeditempanel_hd{
+    border-bottom:none;
+    background:[[setting:backgroundcolor]] url([[pix:theme|shineybg]]) repeat-x center top;
+    text-align:left;
+    padding:3px 5px;
+}
+#dockeditempanel .dockeditempanel_hd h2 {
+    padding: 0 2px;
+    text-align: left;
+    color: #f2f2f2;
+    font-size: 12px;
+    font-weight:bold;
+    text-shadow:0 1px 0 #555555;
+    font-family: "Droid Sans",Helvetica,Arial,sans-serif;
+    letter-spacing: -0.5px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+#dockeditempanel .dockeditempanel_bd {
+    background-color: #f6f6ff;
+}
+#dockeditempanel .dockeditempanel_hd .commands{
+    float:right;
+}
+
+/* block expansion code */
+.block_js_expansion .block_tree{
+    overflow-x:scroll;
+}
+.block_js_expansion.mouseover .content{
+    width:200%;
+    z-index:1000;
+    position:relative;
+}
+.block_js_expansion.mouseover .content .block_tree{
+    width:100%;
+    background-color:#FAFAFA;
+    padding-bottom:0;
+}
+
+/** IE stylings */
+.ie6 .block .block_tree{
+    width:160px;
+    overflow-x:scroll;
+}
+.ie6 #dock{
+    position:absolute;
+}
+.ie6 #dock hr{
+    display:none;
+    height:0;
+    margin:0;
+    padding:0;
+}
+.ie6 #dock li p{
+    background-color:inherit;
+}
+.ie6 #dock .bd.oversized_content .content,.ie7 #dock .bd.oversized_content .content{
+    padding-bottom:0;
+}
+.ie6 .block_js_expansion.mouseover .content,.ie7 .block_js_expansion.mouseover .content{
+    padding-bottom:2px;
+}
+.ie6 .block_tree .tree_item,.ie6 #dock .bd.oversized_content{
+    width:100%;
+}
+
+/* Breadcrumb
+--------------------------- */
+.navbar {
+	width: 100%; 
+	padding: 0;
+	clear:both; 
+	height: 30px; 
+	background: #f8f8f8 url([[pix:theme|shineybg]]) repeat-x center top;
+	margin:0;
+	text-shadow: 0 1px 0 #000;
+	font-size:1em;
+	border-bottom:1px solid #DDD;
+}
+.navbar .breadcrumb{
+    font-size:1em;
+    font-weight:700;
+    padding:6px;
+}
+.breadcrumb {
+	float:left;
+	color: #c4002e;
+}
+.breadcrumb ul { 
+	margin-top: 0px;
+	margin-left: 10px;
+	text-indent:0;
+	list-style:none;
+}
+.breadcrumb li, .navbutton div, .navbutton form {
+	display:inline;
+}
+.logininfo .breadcrumb {
+    font-size: 1.5em;
+}
+a:link,a:active{
+    color:[[setting:userlinkcolour]];
+}
+.breadcrumb a, .breadcrumb a:link, .breadcrumb a:visited {
+    color: #c4002e;
+	text-decoration: none;
+}
+.breadcrumb a:hover, .breadcrumb a:active { 
+    color: #00ccff;
+}
+.sep{
+    background:url([[pix:theme|breadcrumb_arrow]]) no-repeat scroll 100% 50%;
+    margin-right:5px;
+    padding:0.98em 7px;
+}
+
+/* Calendar
+--------------------------- */
+.minicalendar td,.minicalendar th{
+    border-color:#EEE;
+    border-width:0;
+}
+.calendartab th,.calendartable td{
+    border-width:0;
+}
+
+/* Tabs
+--------------------------- */
+.tabtree .tabrow0 li.here a{
+    background:#fff url([[pix:theme|gradient-sb]]) repeat-x 0 0;
+}
+.tabtree .tabrow0 .tabrow1 li a{
+    background:none !important;
+}
+
+/* User
+--------------------------- */
+.userinfobox .content{
+    background:url([[pix:theme|gradient-sb]]) repeat-x 0 0;
+    border-width:2px;
+}
+
+/* Content
+--------------------------- */
+#page {
+    top:15px;
+    background-color: [[setting:userbackground]];
+    border-top: 5px solid #c4002e;
+    margin:10px auto;
+    width:98%;
+}
+#page-content-wrapper {
+    float: none;
+    margin:0;
+}
+#region-post, #region-pre {
+    background: none;
+}
+
+.headingblock, h2.headingblock {
+    border-width:1px;
+    margin:0;
+    padding:5px;
+    font-family:"Trebuchet MS", arial, helvetica, sans-serif;
+}
+/* YUI messes with IE unless we go overboard here */
+img.iconsmall, .commands a img {
+    height:15px;
+    margin:2px;
+    width:15px;
+    border: 1px solid #808080;
+    padding:1px;
+    -webkit-border-radius:5px;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+}
+img.iconlarge {     /* Our icons are only 16x16, so we don't want to stretch them */
+    width:16px;
+    height:16px;
+    margin:6px 4px 2px 4px;
+} 
+ul.section .commands, .block_with_controls .commands {
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.block .content .commands {
+    position:relative;
+}
+ul.section li {
+    clear:right;
+}
+ul.section li div {
+    min-height:23px;
+}
+ul.section li.label div {
+    height: auto;
+}
+ul.section li.label .commands {
+    margin-bottom:2px;
+}
+ul.section li.label {
+    padding-bottom:5px !important;
+}
+.sitetopic .section .activity .availabilityinfo,
+.sitetopic .section .activity .contentafterlink,
+.course-content .section .activity .availabilityinfo,
+.course-content .section .activity .contentafterlink {
+    margin-left:26px;margin-top:0;
+}
+ul.section .activity .contentafterlink p {margin:0 0 1em;}
+body.editing ul.section>li {
+    border-bottom: 1px dashed #808080;
+    position:relative;
+}
+input[type=submit] {
+    background:-webkit-gradient(linear,0% 40%,0% 70%,from(#F9F9F9),to(#E3E3E3));margin: 0 8px 0 0;padding: 2px 8px;text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: default;
+    outline: none;
+    font-family: arial,sans-serif;
+    color: black;
+    border: 1px solid #BBB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-top-color: #CCC;
+    border-bottom-color: #A0A0A0;
+}
+
+/* Make 2.3 activity chooser sit on top of modules in sections */
+div.moodle-dialogue-base {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1500;
+}
+
+/* Blocks
+--------------------------- */
+.block {
+    border-top: #000033 solid 1px;
+    border-bottom: #000033 solid 1px;
+    border-left: #000033 solid 1px;
+    border-right: #000033 solid 1px;
+    background-color: [[setting:userbackground]];
+              box-shadow:2px 2px 3px #b81738;
+         -moz-box-shadow:2px 2px 3px #b81738;
+      -webkit-box-shadow:2px 2px 3px #b81738;
+    border-radius: 0 0 25px 0;
+}
+.block .calendar-controls .current {
+    width: 74%;
+}
+.block .calendar-controls .previous {
+    background:transparent url([[pix:theme|previous]]) no-repeat left top;
+    height:19px;
+}
+.block .calendar-controls .next {
+    background:transparent url([[pix:theme|next]]) no-repeat right top;
+}
+.block .header {
+    border-color:#EEE;
+    border-width:0 1px;
+    background:[[setting:backgroundcolor]] url([[pix:theme|shineybg]]) repeat-x center top;
+    margin-top:-4px;
+}
+.block .header h2{
+    color:#f2f2f2;
+    font-family:"Droid Sans",Helvetica,Arial,sans-serif;
+    font-size:12px;
+    letter-spacing:-0.5px;
+    line-height:30px;
+    text-shadow:0 1px 0 #555;
+    text-transform:uppercase;
+    padding:0;
+    padding-left:18px;
+    margin:4px;
+}
+.block .block_action {
+    margin-right:4px;
+}
+.block .header .block_action{
+    margin:4px 5px;
+}
+.block_with_controls .header .title {
+    position:relative;
+    padding-bottom:20px;
+}
+.block .commands{
+    clear:both;
+    height:auto;
+    padding:0;
+    top:auto;
+    bottom:0px;
+}
+.block .content{
+    padding:5px 10px;
+}
+.block .content .buttons{
+    margin-top:2px;
+}
+.block_login label{
+    font-size:0.85em;
+    display:block;
+}
+.block_login .fld input{
+    width:95%;
+    margin:1px 0 5px;
+    padding:2px;
+}
+.block_login .btn{
+    padding:4px 0;
+}
+.block_login .footer{
+    font-size:0.9em;
+    padding:5px 0 3px;
+}
+.block_calendar_month .content{
+    padding:5px;
+}
+.block_course_summary .content{
+    padding:10px;
+}
+
+
+/* Question bank faux-block
+--------------------------- */
+.newu_with_edit_buttons.jsenabled .block.questionbankwindow {
+    min-height:auto;
+}
+#page-mod-quiz-edit .block.questionbankwindow div.header {
+    background-color:transparent;
+}
+#page-mod-quiz-edit .block.questionbankwindow div.header a {
+    color:#1D8AC3;
+    font-size:0.9em;
+}
+
+/* "Edit" buttons to replace groups of icons with menus
+------------------------ */
+.newu_persistent_edit.path-course .navbar .navbutton {
+    display:none;
+}
+.newu_with_edit_buttons.jsenabled .sitetopic .section .activity .activityinstance,
+.newu_with_edit_buttons.jsenabled .course-content .section .activity .activityinstance {
+    padding-right:1.5em;
+}
+.newu_with_edit_buttons.jsenabled .newu-editbutton-wrap {
+    position:relative;
+    width:auto;
+    display:inline;
+    z-index:3;
+}
+.dockeditempanel_hd .newu-editbutton-wrap {
+    float:right;
+}
+.dockeditempanel_hd .newu-editbutton-wrap .hidepanelicon {
+    margin-right:4px;
+}
+.newu_with_edit_buttons.jsenabled.editing ul.section>li {
+    z-index:3;
+}
+.newu_with_edit_buttons.jsenabled.editing ul.section>li.newu-editbutton-active-module {
+    z-index:4;
+}
+.newu_with_edit_buttons.jsenabled .newu-editbutton {
+    opacity:0.6;
+    height:18px;
+    font-size:10px;
+    font-weight:bold;
+    background-color:#840000;
+    margin: 0;
+    padding: 2px 4px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: default;
+    outline: none;
+    font-family: arial,sans-serif;
+    color: black;
+    border: 1px solid #BBB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-top-color: #CCC;
+    border-bottom-color: #A0A0A0;
+}
+.newu_with_edit_buttons.jsenabled .newu-editbutton:hover, .newu_with_edit_buttons.jsenabled .active .newu-editbutton {
+    opacity:1;
+}
+.newu_with_edit_buttons.jsenabled .newu-editbutton:active {
+    opacity:1;
+    background-color:#B3FF99;
+}
+.newu_with_edit_buttons.jsenabled .newu-editbutton-wrap.active {
+    z-index:4;
+}
+.newu_with_edit_buttons.jsenabled .commands, .newu_with_edit_buttons.jsenabled #dockeditempanel .dockeditempanel_hd .commands,.newu_with_edit_buttons.jsenabled .sitetopic .section .activity .newu-editbutton-wrap.active .commands, .newu_with_edit_buttons.jsenabled .course-content .section .activity .newu-editbutton-wrap.active .commands {
+    display:none;
+}
+.newu_with_edit_buttons.jsenabled .newu-editbutton-wrap .commands a {
+    display:block;
+    line-height:14px;
+    font-size:12px;
+    vertical-align:middle;
+}
+.newu_with_edit_buttons.jsenabled .newu-editbutton-wrap .commands a img {
+    clear:left;
+    float:left;
+    margin:1px 4px;
+}
+.newu_with_edit_buttons.jsenabled .newu-editbutton-wrap .commands a span {
+    float:left;
+    padding-top:5px;
+    max-width:122px;
+}
+.newu_with_edit_buttons.jsenabled .newu-editbutton-wrap .commands {
+    float:none !important;
+    left:100%;
+    position:absolute;
+    top:2px;
+    margin-left:4px;
+    background-color:#E1E1E1;
+    border: 1px solid #D1D1D1;
+    width:150px;
+    z-index:600;
+    -moz-box-shadow: 3px 3px 5px #999;
+    -webkit-box-shadow: 3px 3px 5px #999;
+    box-shadow: 3px 3px 5px #999;
+    padding:2px 0;
+}
+.newu_with_edit_buttons.jsenabled .newu-editbutton-wrap.active .commands, .newu_with_edit_buttons.jsenabled #dockeditempanel .dockeditempanel_hd .newu-editbutton-wrap.active .commands {
+    display:block;
+}
+.newu_with_edit_buttons.jsenabled .block_with_controls .newu-editbutton {
+    margin-left:4px;
+}
+.newu_with_edit_buttons.jsenabled .block_with_controls .commands {
+    height:auto;
+    bottom:auto;
+}
+.newu_with_edit_buttons.jsenabled .block_with_controls .commands a span {
+    padding-top:3px;
+}
+.newu_with_edit_buttons.jsenabled .block .header .commands .icon img {
+    margin-left:0px;
+    margin-right:4px;
+}
+.newu_with_edit_buttons.jsenabled .block .header .newu-editbutton-wrap {
+    z-index:4;
+}
+.newu_with_edit_buttons.jsenabled .block {
+    min-height:125px;
+}
+.newu_with_edit_buttons.jsenabled .block .commands {
+    display:none;
+}
+.newu_with_edit_buttons.jsenabled #page-content #region-main, .newu_with_edit_buttons.jsenabled #page-content .region-content {
+    overflow:visible;
+}
+.newu_with_edit_buttons.jsenabled #page-content {
+    padding-bottom:70px;
+}
+.newu_with_edit_buttons.jsenabled.editing ul.section>li {
+    border-bottom:none;
+}
+.newu_with_edit_buttons.jsenabled .block_with_controls .header .title {
+    padding-bottom:4px;
+}
+.newu_with_edit_buttons.jsenabled .forumpost .commands {
+    display:block;
+}
+.newu_with_edit_buttons.jsenabled div.eventlist table.event div.commands {
+    position:absolute;
+    float:none;
+    top:0;
+}
+.newu_with_edit_buttons.jsenabled.path-mod-glossary .glossarypost .entrylowersection .icons {
+    text-align:left;
+} /* Put the edit button back on the left for glossary items */
+#page-mod-assignment-submissions.newu_with_edit_buttons.jsenabled .header .commands, #page-mod-lti-submissions.newu_with_edit_buttons.jsenabled .header .commands, #page-mod-quiz-report.newu_with_edit_buttons.jsenabled .header .commands {
+    display:none;
+}
+#page-mod-assignment-submissions.newu_with_edit_buttons.jsenabled th.header .commands, #page-mod-lti-submissions.newu_with_edit_buttons.jsenabled th.header .commands, #page-mod-quiz-report.newu_with_edit_buttons.jsenabled th.header .commands {
+    display:inline;
+}
+.newu_with_edit_buttons.jsenabled ul.section>li>.dimmed_text, .newu_with_edit_buttons.jsenabled ul.section>li>.dimmed_text .commands a  {
+    opacity:1;
+} /* Don't allow the entire div to be "dimmed" - only the link inside it */
+.newu_with_edit_buttons.jsenabled .block .content .buttons {
+    text-align:left;
+    position:relative;
+}
+
+/*YUI Reset */
+.yui3-skin-sam #page .yui3-splitbuttonnav .yui3-menu-label .yui3-menu-toggle{
+    background-position:3px center;
+}
+.yui3-skin-sam #page .yui3-splitbuttonnav .yui3-menu-label-menuvisible .yui3-menu-toggle{
+    background-position:0 50%;
+}
+.yui3-skin-sam #page .yui3-menu-label,.yui3-skin-sam #page .yui3-menuitem-content{
+    color:#35251B;
+    font-weight:400;
+}
+.custom_menu_submenu .yui3-menu-label,.custom_menu_submenu .yui3-menuitem-content{
+    color:#35251B !important;
+}
+.yui3-skin-sam #page .yui3-menu-label.yui3-menu-label-active,.yui3-skin-sam #page .yui3-menuitem-active .yui3-menuitem-content{
+    color:#DA5013;
+}
+.yui3-skin-sam #page .yui3-menu-content,.yui3-skin-sam #page .yui3-menu-content,.yui3-skin-sam #page .yui3-menu .yui3-menu .yui3-menu-content,.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menu-label,.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menuitem-content{
+    border:none;
+}
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label,.yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content{
+    border-color:gray;
+    border-style:solid;
+    border-width:0;
+}
+.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menu-content,.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menu-label,.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menu-label-active,.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menuitem-active .yui3-menuitem-content,.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menu-label-menuvisible{
+    background-position:-10000px -10000px;
+}
+.yui3-skin-sam #page .yui3-menu-label,.yui3-skin-sam #page .yui3-menu .yui3-menu .yui3-menu-label,.yui3-skin-sam #page .yui3-menubuttonnav .yui3-menu-label em{
+    background-position:right center;
+}
+
+/* Forms
+------------------------ */
+.mform fieldset{
+    border-color:#ddd;
+}
+.mform legend {
+    background: none repeat scroll 0 0 #f6f6ff;
+    border: 1px solid #000033;
+    padding: 2px 7px;
+}
+legend {
+    color: #000033;
+}
+.mform .fitem .felement {
+    margin-left: 31%;
+    margin-right: 0px;
+    width: 68%;
+}
+.mform .fitem fieldset.felement{
+    float:left;
+}
+.mform .fitem .fitemtitle{
+    width:30%;
+}
+
+/* Footer
+-------------------------- */
+#page-footer{
+    width:100%;
+    margin:25px 0 0 0;
+    background-color:#212121;
+    color:#fff;
+}
+#page-footer .logininfo{
+    margin:1em 0;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 32px;
+    right: 40px;
+    text-align: center;
+    cursor: pointer;
+    opacity: .5;
+    filter:alpha(opacity=50);
+    display:none;
+}
+#back-to-top a.arrow {
+    padding: 5px 10px;
+    font-size: 36px;
+    color: #333;
+    background: #EEE;
+    border: 1px solid #CCC;
+    border-bottom: 1px solid #AAA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#back-to-top a.text {
+    display: block;
+    background: white;
+    visibility: hidden;
+    position: relative;
+    top: 10px;
+}
+#back-to-top a {
+    text-decoration: none;
+    border: 0;
+    outline: none;
+}
+    
+/* PerformanceInfo
+-------------------------- */
+#page-footer .performanceinfo{
+    -moz-border-radius-topleft:15px;
+    -moz-border-radius-topright:15px;
+    -webkit-border-top-left-radius:15px 15px;
+    -webkit-border-top-right-radius:15px 15px;
+    border-radius:15px 15px 0 0;
+    bottom:0;
+    left:-290px !important;
+    position:fixed;
+    background-color:[[setting:backgroundcolor]];
+    width:580px !important;
+    border-width:12px 12px medium;
+    margin:0 50% !important;
+    z-index:400;
+}
+#page-footer .performanceinfo ul {
+    text-align: center;
+    margin: 0 auto;
+}
+#page-footer .performanceinfo li{
+    display:block;
+    list-style-type:none;
+    float:left;
+    padding:5px 0;
+    width:25%;
+}
+#page-footer .performanceinfo li var{
+    font-size:1.3em;
+    font-weight:700;
+}
+#page-footer .performanceinfo .green{
+    color:#588E13 !important;
+}
+#page-footer .performanceinfo .blue{
+    color:#3769A0 !important;
+}
+#page-footer .performanceinfo .purple{
+    color:#953FA1 !important;
+}
+#page-footer .performanceinfo .orange{
+    color:#D28C00 !important;
+}
+#page-footer .performanceinfo .red{
+    color:#B72F09 !important;
+}
+#page-footer .performanceinfo .white{
+    color:#FFF !important;
+}
+#page-footer .performanceinfo span{
+    color:#fff;
+}
+
+/* Course
+---------------------------*/
+.course-content ul.topics li.section .left{
+    font-size:2em;
+}
+.course-content ul.topics li.section{
+    background:transparent url([[pix:theme|topic-bg-bottom]]) repeat-x scroll bottom center;
+    margin:0 0 30px;
+    padding:0 0 30px;
+}
+.course-content ul.weeks li.section{
+    background:transparent url([[pix:theme|topic-bg-bottom]]) repeat-x scroll bottom center;
+    margin:0;
+    padding:0 0 30px;
+}
+.section-navigation.headingblock span.mdl-left, .section-navigation.headingblock span.mdl-right {
+    font-size:0.7em;
+    margin-top:0.3em;
+}
+.dir-ltr .section-navigation span.mdl-left a:before {
+    content:'◄ ';
+    font-size:0.8em;
+}
+.dir-rtl .section-navigation span.mdl-left a:after {
+    content:' ◄';
+    font-size:0.8em;
+}
+.dir-ltr .section-navigation span.mdl-right a:after {
+    content:'►';
+    font-size:0.8em;
+}
+.dir-rtl .section-navigation span.mdl-right a:before {
+    content:'► ';
+    font-size:0.8em;
+}
+#intro, #pageintro {
+    background: none repeat scroll 0 0 #f6f6ff;
+    color: #000033;
+}
+#intro {
+    border-color: #000033;
+}
+
+/* Forum
+---------------------------*/
+.path-mod-forum .forumheaderlist th {
+    background: url([[pix:theme|gradient-sb]]) repeat-x 0 0;
+}
+.path-mod-forum .forumheaderlist .r1 td {
+    background:#f5f5f5;
+}
+.forumpost .topic {
+    background:#eee;
+    border-color:#aaa;
+    border-width:0 0 2px 0;
+    padding-left:7px;
+}
+.forumpost .topic .subject {
+    font-size:1.25em;
+}
+.forumpost .topic .author {
+    font-style:italic;
+    color:#444;
+    font-size:0.95em;
+}
+.forumpost .content {
+    border-bottom:5px solid #aaa;
+    padding:5px 7px 10px 7px;
+}
+
+/* Assignments
+--------------------------*/
+.path-mod-assignment #dates table .c0 {
+    background:#f5f5f5;
+}
+#page-mod-assignment-submissions #region-main .header .commands a img {
+    height:11px;
+    width:11px;
+    border:0px none;
+    padding:0;
+}
+
+/* Folder
+--------------------------*/
+#page-mod-folder-edit .foldertree {
+    width: 95%;
+}
+
+/* Event list
+--------------------------*/
+div.eventlist table.event div.commands {
+    position:relative;
+    float:right;
+    top:auto;
+    right:auto;
+}
+
+/* Glossaries
+--------------------------*/
+table.glossarypost {
+	border-bottom: 1px solid #DDD;
+}
+
+/* Reports
+--------------------------*/
+body.pagelayout-report #page-content {
+	overflow:hidden;
+}
+body.pagelayout-report #page-content #region-main .region-content {
+	overflow-x:auto;
+}
+
+/* Awesomebar - workings and structure 
+--------------------------------------*/
+.newu-awesome-bar {
+    left:0;
+    width:100%;
+    height:25px;
+    z-index:12000;
+}
+#awesomebar {
+    position:fixed;
+    top:0;
+}
+#awesomebar ul#awesomeHomeMenu > li {
+    padding-bottom:0;
+}
+#awesomebar ul#awesomeHomeMenu > li > span, #awesomebar ul#awesomeHomeMenu > li > a {
+    padding-bottom:1px;
+    padding-top:3px;
+    height:20px;
+}
+.newu-awesome-bar ul, .newu-awesome-bar li {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.newu-awesome-bar ul li {
+    display:block;
+}
+.newu-awesome-bar > ul > li {
+    float:left;
+    padding:0;
+}
+.newu-awesome-bar > ul > li > span, .newu-awesome-bar > ul > li > a, .newu-awesome-bar > ul > li > span.customitem {
+    padding:4px 8px;
+}
+.newu-awesome-bar li.clickable-with-children > a {
+    padding:4px 2px 4px 19px;
+}
+.newu-awesome-bar ul.dropdown ul {
+    display:none;
+    width:200px;
+    z-index:598;
+}
+.newu-awesome-bar ul.dropdown li {
+    position:relative;
+}
+.newu-awesome-bar ul.dropdown li:hover > ul, .newu-awesome-bar ul.dropdown li.extended-hover > ul {
+    display:block;
+    position:absolute;
+    left:100%;
+    top:-1px;
+}
+.newu-awesome-bar ul.dropdown > li:hover > ul, .newu-awesome-bar ul.dropdown > li.extended-hover > ul {
+    left:0;
+    top:100%;
+}
+.newu-awesome-bar img.smallicon {
+    margin-left:2px;
+    margin-right:2px;
+    width:16px;
+    height:16px;
+}
+.newu-awesome-bar span, .newu-awesome-bar a {
+    display:block;
+}
+.newu-awesome-bar ul ul a, .newu-awesome-bar ul ul span {
+    height:16px;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+body #dock {
+    top:26px;
+    height:auto;
+    bottom:0px;
+} /* Start dock at bottom of Awesomebar */
+
+/* Awesomebar - appearance 
+--------------------------------------*/
+.newu-awesome-bar {
+    border-bottom: 1px solid #1a1a1a;
+}
+.topadminsearchform{
+    float:right;
+}
+input#topadminsearchquery{
+    border:1px solid #aaa;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    background:#fff url([[pix:theme|search_icon]]) no-repeat 2px 1px;
+    width:200px;
+    margin:4px 10px 2px 0;
+    padding:1px 0 0 17px;
+}
+.newu-awesome-bar a, .newu-awesome-bar a:visited, .newu-awesome-bar a:hover, .newu-awesome-bar a:link {
+    color:#fff;
+}
+.newu-awesome-bar a:hover {
+    background-color:[[setting:backgroundcolor]];
+}
+.newu-awesome-bar, .newu-awesome-bar li {
+    background-color:[[setting:menubackgroundcolor]];
+    color:#fff;
+}
+.newu-awesome-bar li:hover {
+    background-color:[[setting:backgroundcolor]];
+}
+.newu-awesome-bar ul ul li span, .newu-awesome-bar li.clickable-with-children > a {
+    padding:3px 20px;
+    background-image:url([[pix:theme|nav-arrow-right]]);
+    background-position:100% 50%;
+    background-repeat:no-repeat;
+}
+.newu-awesome-bar ul ul a {
+    display:block;
+    height:100%;
+    margin:0;
+    vertical-align:top;
+    padding-top:2px;
+}
+.newu-awesome-bar ul ul li:hover > span, .newu-awesome-bar li.clickable-with-children:hover > a {
+    background-image:url([[pix:theme|ab-arrowover]]);
+}
+.newu-awesome-bar ul ul li:hover > span {
+    cursor:default;
+}
+.newu-awesome-bar li {
+    border-color:#404040 #1a1a1a #1a1a1a #505050;
+    border-style:groove;
+    border-width:1px;
+}
+
+/* Custom menu 
+--------------------------------------*/
+#custommenu {
+    position:relative;
+    z-index:997;
+}
+#custommenu > ul > li > span.customitem, #custommenu > ul > li > a.customitem-no-children {
+    padding:3px 8px 2px 8px;
+    height:19px;
+}
+.newu-awesome-bar span.customitem {
+    padding-left:4px;
+}
+.newu-awesome-bar span.customitem > a {
+    padding:0;
+}
+.newu-awesome-bar a.customitem-no-children {
+    padding:3px 4px;
+}
+#custommenu a.customitem-no-children {
+    padding:2px 4px 1px 4px;
+}
+.newu-awesome-bar > ul > li > a.customitem-no-children {
+    padding:4px 8px;
+}
+.newu-awesome-bar ul.newu-custom-menu span a:hover {
+    background-color:transparent;
+}
+.newu-awesome-bar ul.newu-custom-menu li:hover > span.customitem {
+    background-color:[[setting:backgroundcolor]];
+}
+.newu-awesome-bar ul.newu-custom-menu li:hover > span.customitem.customitem-nolink {
+    background-color:[[setting:backgroundcolor]];
+    cursor:default;
+}
+
+/* z-index overrides to prevent other things sitting on top of Awesomebar */
+.filepicker-filelist .filepicker-container, .filemanager.fm-noitems .fm-empty-container {
+    z-index:300;
+}
+/* z-index boosts to push overlays above the custom menu (if separate) - but not the Awesomebar */
+.user-enroller-panel {
+    z-index:998;
+}
+.block_course_contacts h2 {
+    font-size:1.25em;
+}
+/* Remove underline from grid format view - this should be optional rather than enforced by the format*/
+#shadebox_content .activity {
+    border-bottom: none;
+}
+/* Remove background colour from tab topics format */
+.yui3-skin-sam .yui3-tabview-panel {
+    background-color: transparent !important;
+}
+/*Tweaks carried over from uwnstandard theme*/
+/*Highlight indented resources*/
+.section .img-text .mod-indent-1, .section .img-text .mod-indent-3, .section .img-text .mod-indent-5, .section .img-text .mod-indent-7, .section .img-text .mod-indent-9{
+    background-color:#aaffff;
+}
+.section .img-text .mod-indent-2, .section .img-text .mod-indent-4, .section .img-text .mod-indent-6, .section .img-text .mod-indent-8, .section .img-text .mod-indent-10 {
+    background-color:#aaffaa;
+}
+/***** Rubrics *********/
+
+#page-mod-assignment-submissions.path-mod div#page div#page-content div#region-main-box div#region-post-box div#region-main-wrap div#region-main div.region-content form#submitform.mform fieldset#Grades.clearfix div.fcontainer div.fitem,
+#page-grade-grading-form-rubric-edit.path-grade div#page div#page-content div#region-main-box div#region-post-box div#region-main-wrap div#region-main div.region-content form#mform1.gradingform_rubric_editform fieldset.hidden div div.fitem {
+    clear: right;
+    margin-bottom: 1px;
+    margin-top: 5px;
+    overflow: scroll;
+    width: 100%;
+}
+#page-mod-assignment-submissions.path-mod div#page div#page-content div#region-main-box div#region-post-box div#region-main-wrap div#region-main div.region-content form#submitform.mform fieldset#Grades.clearfix div.fcontainer div.fitem div.fitemtitle,
+#page-grade-grading-form-rubric-edit.path-grade div#page div#page-content div#region-main-box div#region-post-box div#region-main-wrap div#region-main div.region-content form#mform1.gradingform_rubric_editform fieldset.hidden div div.fitem div.fitemtitle {
+    float: left;
+    text-align: right;
+    width: 5%;
+}
+#page-mod-assignment-submissions.path-mod div#page div#page-content div#region-main-box div#region-post-box div#region-main-wrap div#region-main div.region-content form#submitform.mform fieldset#Grades.clearfix div.fcontainer div.fitem div.felement,
+#page-grade-grading-form-rubric-edit.path-grade div#page div#page-content div#region-main-box div#region-post-box div#region-main-wrap div#region-main div.region-content form#mform1.gradingform_rubric_editform fieldset.hidden div div.fitem div.felement {
+    border-width: 0;
+    margin-left: 6%;
+    width: 94%;
+}
+#page-grade-grading-pick .template-preview , #page-grade-grading-manage .definition-preview{
+    border: 1px solid #EEEEEE;
+    float: right;
+    margin-bottom: 1em;
+    overflow: scroll;
+    padding: 1em;
+    width: 80%;
+}
+#page-my-index .block_course_overview h3.main {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.unlist, .unlist li, .inline-list, .inline-list li, .block .list, .block .list li, .sitetopic .section li.activity, .course-content .section li.activity, .tabtree li {
+    list-style: none outside none;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.path-mod-glossary .glossarypost .concept h3 {
+    font-size: 1.5em;
+    font-weight: 900;
+    margin: 0;
+    text-align: left;
+}
+
+#page-my-index .block_course_overview h3.main {margin-left:20px;}
+.path-my .coursebox .overview .name {margin-left:35px;}
+.path-my .coursebox .overview .info {margin-left:50px;}
+.path-my .coursebox .overview .details {margin-left:50px;}
+
+/* Icon Navigation and block layout of resources */
+.course-content li.section{
+margin-bottom:5px;
+}
+
+.path-course ul.section li.activity{
+	position:static;
+}
+
+/*
+.mod-indent-1 {
+    margin: 5px 10px;
+    width:175px; 
+	float:left;
+}
+.mod-indent-2 {
+	margin:0 10px;
+	width:100%;
+	clear:both;
+	float:left;
+}
+.section .img-text .mod-indent-1,.section .img-text .mod-indent-2 {
+	background-color: transparent;
+}
+
+.course-content .section .activity .mod-indent-1 img.activityicon, .course-content .section .activity .mod-indent-2 img.activityicon {
+    height: 32px;
+    width: 32px;
+    margin: 0 auto;
+    display:block;
+}
+
+.course-content .section .activity .mod-indent-1 a span.instancename, .course-content .section .activity .mod-indent-2 a span.instancename {
+    clear:both;
+    display:block;
+    text-align:center;
+}
+
+.mod-indent-1,.mod-indent-2,.mod-indent-3,.mod-indent-4,.mod-indent-5,.mod-indent-6,.mod-indent-7,.mod-indent-8,.mod-indent-9,.mod-indent-10 {
+}
+*/
+.iconnav {
+	width: 150px;
+	height: 200px;
+	margin: 5px 0;
+	text-align:center;
+	border:none;
+}
+
+.user-enroller-panel {
+    z-index: 5000;   /*Prevents the enrolment panel sliding under the menu text and mouse overs*/
+}
+
+/* Adjust rubric definition form to full screen width */
+.gradingform_rubric {
+    max-width: 60%;
+    overflow: auto;
+    padding-bottom: 1.5em;
+    position: relative;
+}
+/*Adjust colours of background of grid format boxes*/
+.course-content ul.icons li .image_holder {
+    background-color: #FFF;
+}
+
+#dock .firstdockitem {
+	margin-top: 26px;
+}
+body #dock {
+	top: 0;
+}
+#lightbox {
+	z-index:1000 !important;
+}
+/***** Rubrics *********/
+
+#page-mod-assignment-submissions.path-mod div#page div#page-content div#region-main-box div#region-post-box div#region-main-wrap div#region-main div.region-content form#submitform.mform fieldset#Grades.clearfix div.fcontainer div.fitem,
+#page-grade-grading-form-rubric-edit.path-grade div#page div#page-content div#region-main-box div#region-post-box div#region-main-wrap div#region-main div.region-content form#mform1.gradingform_rubric_editform fieldset.hidden div div.fitem {
+    clear: right;
+    margin-bottom: 1px;
+    margin-top: 5px;
+    overflow: scroll;
+    width: 100%;
+}
+#page-mod-assignment-submissions.path-mod div#page div#page-content div#region-main-box div#region-post-box div#region-main-wrap div#region-main div.region-content form#submitform.mform fieldset#Grades.clearfix div.fcontainer div.fitem div.fitemtitle,
+#page-grade-grading-form-rubric-edit.path-grade div#page div#page-content div#region-main-box div#region-post-box div#region-main-wrap div#region-main div.region-content form#mform1.gradingform_rubric_editform fieldset.hidden div div.fitem div.fitemtitle {
+    float: left;
+    text-align: right;
+    width: 5%;
+}
+#page-mod-assignment-submissions.path-mod div#page div#page-content div#region-main-box div#region-post-box div#region-main-wrap div#region-main div.region-content form#submitform.mform fieldset#Grades.clearfix div.fcontainer div.fitem div.felement,
+#page-grade-grading-form-rubric-edit.path-grade div#page div#page-content div#region-main-box div#region-post-box div#region-main-wrap div#region-main div.region-content form#mform1.gradingform_rubric_editform fieldset.hidden div div.fitem div.felement {
+    border-width: 0;
+    margin-left: 6%;
+    width: 94%;
+}
+#page-grade-grading-pick .template-preview , #page-grade-grading-manage .definition-preview{
+    border: 1px solid #EEEEEE;
+    float: right;
+    margin-bottom: 1em;
+    overflow: scroll;
+    padding: 1em;
+    width: 80%;
+}
+#page-my-index .block_course_overview h3.main {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+/* Mod chooser tiles
+--------------------------*/
+/*.choosercontainer #chooseform .moduletypetitle {width:100%;font-size:120%;font-weight:bold;clear:both;padding:0.5em 0 0.3em 0;text-align:center;}
+.choosercontainer #chooseform .options .option {float:left;width:70px;margin:0 2px;padding:0;text-align:center;}
+.choosercontainer #chooseform .options .option label {height:75px;}
+.choosercontainer #chooseform .options .option input {position:absolute;left:-10000px;}
+.choosercontainer #chooseform .options .option .modicon {display:block;width:24px;height:24px;margin: 0 auto;}
+.choosercontainer #chooseform .options .option .modicon img.icon {padding:0;}
+.choosercontainer #chooseform .options .option .typename {padding:0;font-size:90%;line-height:1em;}
+*/
+.newu-awesome-bar ul.dropdown li a[title="Moodle2 Courses (2012-13)"] {
+    background-color:#124E8A;
+}
+
+/* TabTopics format */
+.yui3-skin-sam .yui3-tab-selected .yui3-tab-label, .yui3-skin-sam .yui3-tab-selected .yui3-tab-label:focus, .yui3-skin-sam .yui3-tab-selected .yui3-tab-label:hover {
+    background-color: #BE0F34 !important;
+    border-color: #2C2C2C;
+}
+.yui3-skin-sam .yui3-tab-label {
+    background-color: #DFDFDF !important;
+    border-radius: 5px 5px 0 0;
+}
+.yui3-skin-sam .yui3-tabview-list {
+    border-bottom-color: #BE0F34 !important;
+}
+/* Grid format */
+.course-content ul.gtopics-0 #section-0 {
+    background: none repeat scroll 0 0 #fff;
+    border: 0 none;
+}
+.course-content #gridiconcontainer {
+	width:auto;
+}
+#gridiconcontainer ul.gridicons li {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+#gridiconcontainer ul.gridicons li.currentselected {
+    background: none repeat scroll 0 0 #ffffff;
+    opacity:1.0;
+}
+/* Scheduler */
+#page-mod-scheduler-view #region-main .region-content div div.box center .commands {
+	display:inline;
+}
+input#atbar_auto.atbar_control, label.atbar_control {display:none;}
